@@ -1,9 +1,129 @@
-#painel-sobre{
-	margin-top: 20px;
+body {
+  background-color: #e6f2ff; /* azul claro suave */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #333;
 }
 
-.titulo-clientes{
-	background-color: #0275D8;
-	padding: 10px;
+h1 {
+  color: #004080;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 12px;
+}
+
+img {
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table, th, td {
+  border: 1px solid #777;
+}
+
+th, td {
+  padding: 10px 15px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+  background-color: #e6f2ff;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f99;
+}
 	
 }
+r:</h3>
+  <table border="1">
+    <tr>
+      <td>Japão</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" alt="Bandeira do Japão" width="100"></td>
+    </tr>
+    <tr>
+      <td>Canadá</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Bandeira do Canadá" width="100"></td>
+    </tr><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="estilo.css">
+  <h1>Lucas Marinhak</h1>
+
+  
+  <p>Olá! Meu nome é Lucas, tenho 28 anos, moro em Curitiba e sou apaixonado por tecnologia. estou cursando Análise e Desenvolvimento de Sistemas. Gosto de aprender coisas novas, principalmente sobre programação e inovação.</p>
+
+  
+  <h2>Meus hobbies favoritos:</h2>
+  <ul>
+    <li>Jogar videogame</li>
+    <li>Fotografia</li>
+    <li>Viajar</li>
+  </ul>
+
+  
+  <h3>Uma imagem que representa meu hobby:</h3>
+  <img src="imagens/Tec.png.png" width="200">
+
+  
+  <h3>Países que gostaria de visita
+    <tr>
+      <td>Itália</td>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alt="Bandeira da Itália" width="100"></td>
+    </tr>
+  </table>
+
+  
+  <p>Confira um site que sempre acesso para aprender mais sobre tecnologia: <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a></p>
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <div id="mensagem" style="margin-top: 15px;"></div>
+  <script src="script.js"></script>
+</body>
+</html>
